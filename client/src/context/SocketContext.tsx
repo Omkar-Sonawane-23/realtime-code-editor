@@ -27,7 +27,7 @@ export const useSocket = (): SocketContextType => {
     return context
 }
 
-const BACKEND_URL = "https://realtime-code-editor-1q7q.onrender.com"
+const BACKEND_URL = "https://realtime-code-editor-1-4pzk.onrender.com"
 
 const SocketProvider = ({ children }: { children: ReactNode }) => {
     const {
@@ -143,3 +143,4 @@ const SocketProvider = ({ children }: { children: ReactNode }) => {
 
 export { SocketProvider }
 export default SocketContext
+
